@@ -1,0 +1,35 @@
+*{
+    border:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.Lev1 {
+  display: grid;
+  width: 40%;
+  height: 30vh;
+  margin: 0 auto;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: .8rem;
+}
+.block1 {
+  background: red;
+  grid-column: 1 / 3;
+}
+.block2 {
+  background: blue;
+  grid-column: 3 / 5;
+}
+.block3 {
+  background: green;
+}
+.block4 {
+  background: purple;
+  grid-column: 2 / 5;
+}
+.block5 {
+  background: yellow;
+  grid-column: 1 / 5;
+}
+
+
